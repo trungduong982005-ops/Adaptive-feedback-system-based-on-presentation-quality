@@ -1,0 +1,10 @@
+.venv\Scripts\activate
+
+#new
+# Chạy mic mode:
+python Adaptivefeedback.py --mode mic
+
+# File mode — giữ nguyên 100%:
+python Adaptivefeedback.py --mode file --file test41.wav
+set DEEPGRAM_API_KEY=dc81eb9937af8e8116a20cab66d4d114d5a0b3b1  
+setx DEEPGRAM_API_KEY "dc81eb9937af8e8116a20cab66d4d114d5a0b3b1"

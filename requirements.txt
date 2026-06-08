@@ -1,0 +1,20 @@
+# Adaptive Feedback System – Requirements
+
+# Core
+numpy>=1.21
+openai-whisper>=20231117
+
+# Microphone capture
+pyaudio>=0.2.13
+
+# Non-WAV file support (optional but recommended)
+pydub>=0.25.1
+
+# Notes:
+# - PyAudio on Ubuntu/Debian: sudo apt-get install portaudio19-dev && pip install pyaudio
+# - PyAudio on macOS:         brew install portaudio && pip install pyaudio
+# - PyAudio on Windows:       pip install pyaudio  (wheel available on PyPI)
+# - pydub needs ffmpeg in PATH for mp3/m4a/ogg support
+#   Ubuntu: sudo apt-get install ffmpeg
+#   macOS:  brew install ffmpeg
+#   Windows: download from https://ffmpeg.org/download.html
